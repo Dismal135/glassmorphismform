@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
       <>
-      <div class="header">
+      <div className="header">
         <h1 id="title">Glassmorphism</h1>
         <p id="description">Form</p>
       </div>
@@ -25,7 +24,7 @@ function App() {
       </select>
     </div>
 
-    <div class="wrapper">
+    <div className="wrapper">
       <h1 id="radio-text">quia or dolor</h1>
       <label><input type="radio" name="radio-input" value="quia" />
         quia</label>
@@ -33,7 +32,7 @@ function App() {
         dolor</label>
     </div>
 
-    <div class="wrapper">
+    <div className="wrapper">
       <h1 id="checkbox-text">pick your order</h1>
       <label>
         <input type="checkbox" value="Lorem" />
